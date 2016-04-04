@@ -19,7 +19,7 @@ class Dist_dl3185(BaseDistribution):
 
 	def std(self):
 		"""This is the standard deviation of the pdf"""
-		return 0.0585252
+		return np.sqrt(0.0585252)
 
 
 def test(cls):
